@@ -8,6 +8,7 @@
 html, body {
   width: 100%;
   height: 100%;
+  font-family: "Open Sans", sans-serif;
   font-size: 62.5%; }
 
 .titlebar {
@@ -33,3 +34,15 @@ html, body {
       cursor: pointer;
       font-size: 1.8em;
       -webkit-app-region: no-drag; }
+
+.header {
+  height: 96px;
+  line-height: 72px;
+  color: #444444;
+  display: flex;
+  width: 100%;
+  padding-top: 32px; }
+  .header .header__title {
+    font-size: 2.8em;
+    padding-left: 32px;
+    font-weight: 400; }

@@ -5,6 +5,7 @@
     <title>Music Player</title>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
     <link rel="stylesheet" href="style/main.css">
 
     <script>if (typeof module === 'object') {window.module = module; module = undefined;}</script>
@@ -20,6 +21,14 @@
             <li class="titlebar__close"><i class="fa fa-close"></i></li>
         </ul>
     </section>
+
+    <header class="header">
+        <h1 class="header__title">Music Player</h1>
+        <section class="header__info">
+
+        </section>
+        <input type="text" class="header__search">
+    </header>
 
     <script>
         require('./renderer.js');
