@@ -11,6 +11,8 @@ function createWindow() {
     mainWindow.maximize();
     mainWindow.setMenu(null);
 
+    //mainWindow.webContents.openDevTools();
+
     mainWindow.loadURL(url.format({
         pathname: path.join(__dirname, 'index.html'),
         protocol: 'file:',

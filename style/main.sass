@@ -1,3 +1,8 @@
+// VARIABLES
+$dark-grey: #444444
+$light-grey: #A1A1A1
+
+// GENERAL
 *
     margin: 0
     padding: 0
@@ -9,3 +14,32 @@
 html, body
     width: 100%
     height: 100%
+    font-size: 62.5%
+
+// WINDOW
+.titlebar
+    display: block
+    position: absolute
+    right: 0
+    top: 0
+    height: 32px
+    line-height: 32px
+    width: 100%
+    text-align: right
+    -webkit-app-region: drag
+
+    ul
+        list-style: none
+        display: inline-flex
+        flex-flow: row nowrap
+
+        li
+            width: 32px
+            height: 100%
+            text-align: center
+            line-height: 32px
+            color: $light-grey
+            cursor: pointer
+            font-size: 1.8em
+            -webkit-app-region: no-drag
+

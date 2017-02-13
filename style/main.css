@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+  *:after, *:before {
+    box-sizing: inherit; }
+
+html, body {
+  width: 100%;
+  height: 100%;
+  font-size: 62.5%; }
+
+.titlebar {
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 32px;
+  line-height: 32px;
+  width: 100%;
+  text-align: right;
+  -webkit-app-region: drag; }
+  .titlebar ul {
+    list-style: none;
+    display: inline-flex;
+    flex-flow: row nowrap; }
+    .titlebar ul li {
+      width: 32px;
+      height: 100%;
+      text-align: center;
+      line-height: 32px;
+      color: #A1A1A1;
+      cursor: pointer;
+      font-size: 1.8em;
+      -webkit-app-region: no-drag; }
